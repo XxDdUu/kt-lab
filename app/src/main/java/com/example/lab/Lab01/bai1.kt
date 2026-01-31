@@ -1,6 +1,6 @@
-package com.example.lab
+package com.example.lab.Lab01
 
-class Dice {
+class Dice1 {
     fun roll() {
         val randomNumber = (1..6).random()
         println(randomNumber)
@@ -8,6 +8,6 @@ class Dice {
 }
 
 fun main() {
-    val dice = Dice()
+    val dice = _root_ide_package_.com.example.lab.Lab01.Dice1()
     dice.roll()
 }

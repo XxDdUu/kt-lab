@@ -1,6 +1,6 @@
-package com.example.lab
+package com.example.lab.Lab01
 
-class Dice(val numSides: Int) {
+class Dice2(val numSides: Int) {
 
     fun roll() {
         val randomNumber = (1..numSides).random()
@@ -9,6 +9,6 @@ class Dice(val numSides: Int) {
 }
 
 fun main() {
-    val dice = Dice(6)
+    val dice = _root_ide_package_.com.example.lab.Lab01.Dice2(6)
     dice.roll()
 }

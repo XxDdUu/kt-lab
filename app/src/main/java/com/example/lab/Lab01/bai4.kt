@@ -1,9 +1,9 @@
-package com.example.lab
+package com.example.lab.Lab01
 
 import kotlinx.coroutines.*
 import kotlin.random.Random
 
-class Dice(private val numSides: Int) {
+class Dice4(private val numSides: Int) {
 
     suspend fun roll(): Int {
         delay(1000) // giả lập thời gian lăn xúc xắc
@@ -12,8 +12,8 @@ class Dice(private val numSides: Int) {
 }
 
 fun main() = runBlocking {
-    val dice1 = Dice(6)
-    val dice2 = Dice(20)
+    val dice1 = _root_ide_package_.com.example.lab.Lab01.Dice4(6)
+    val dice2 = _root_ide_package_.com.example.lab.Lab01.Dice4(20)
 
     println("Rolling dice...")
 
