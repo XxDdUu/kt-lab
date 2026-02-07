@@ -3,6 +3,7 @@ package com.example.lab.Lab02
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email
@@ -43,6 +44,7 @@ fun BusinessCard() {
         verticalArrangement = Arrangement.Center
     ) {
         Image(
+
             painter = painterResource(id = R.drawable.athe),
             contentDescription = "Profile Picture",
             modifier = Modifier
@@ -59,7 +61,7 @@ fun BusinessCard() {
 
         Spacer(modifier = Modifier.height(48.dp))
 
-        ContactRow(icon = Icons.Default.Phone, text = "+84 039980811")
+        ContactRow(icon = Icons.Default.Phone, text = "+84 0399808111")
         ContactRow(icon = Icons.Default.Person, text = "github.com/Lylaoshi")
         ContactRow(icon = Icons.Default.Email, text = "sungang.20072009@gmail.com")
     }
